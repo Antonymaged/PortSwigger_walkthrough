@@ -34,6 +34,17 @@ Also included:
 /sqli/
   ├── blind_sqli.pdf
   └── lab_15.py ##To solve the 15th lab with ease
+
+/csrf/
+  └── csrf_report.pdf
+
+/ssrf/
+  └── ssrf_report.pdf
+
+/Authentication/
+  ├── password_maker.py
+  ├── passwords
+  └── Authentication_report.pdf
 ```
 
 ---
