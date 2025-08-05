@@ -85,7 +85,6 @@ for h3 in soup.find_all('h3'):
                 product_link = urljoin(url, href)
 
         print("Redirecting to:", product_link)
-        product_response = requests.get(product_link)
         response = requests.get(product_link)
         soup = BeautifulSoup(response.text, "html.parser")
         price_div = soup.find("div", id="price")
