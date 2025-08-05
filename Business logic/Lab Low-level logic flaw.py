@@ -6,8 +6,6 @@ from urllib.parse import urlparse, urljoin
 url = input('please enter you lab url here: ');
 parsed_url = urlparse(url)
 host = parsed_url.netloc
-origin = f"{parsed_url.scheme}://{host}"
-referer = f"{origin}/product?productId=1"
 
 login_url = url + '/login'
 session = requests.Session()
